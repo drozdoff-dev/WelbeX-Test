@@ -6,6 +6,7 @@ jsonwebtoken
 Удобно тестировать через программу Postman.
 
 endpoints:
+
     localhost:3002/blogs - блоги
         urlencoded: - передача параметров по телу urlencoded POST методом
             req.headers['authorization'] | bearer1 - передача JWT токена по Bearer Token
